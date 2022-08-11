@@ -44,30 +44,30 @@ class AppTheme {
         fontSize: 24,
       ),
     ),
-    inputDecorationTheme: const InputDecorationTheme(
-      hintStyle: TextStyle(
+    inputDecorationTheme: InputDecorationTheme(
+      hintStyle: const TextStyle(
         fontWeight: FontWeight.normal,
         fontSize: 17,
       ),
-      labelStyle: TextStyle(fontWeight: FontWeight.normal, fontSize: 17),
+      labelStyle: const TextStyle(fontWeight: FontWeight.normal, fontSize: 17),
       contentPadding: EdgeInsets.all(20),
       filled: true,
-      fillColor: Colors.white,
-      enabledBorder: OutlineInputBorder(
+      fillColor: Colors.grey[300],
+      enabledBorder: const OutlineInputBorder(
         borderSide: BorderSide(
-          color: Colors.white,
+          color: Colors.grey,
         ),
         borderRadius: BorderRadius.all(Radius.circular(10)),
       ),
-      border: OutlineInputBorder(
+      border: const OutlineInputBorder(
         borderSide: BorderSide(
-          color: Colors.white,
+          color: Colors.grey,
         ),
         borderRadius: BorderRadius.all(Radius.circular(10)),
       ),
-      focusedBorder: OutlineInputBorder(
+      focusedBorder: const OutlineInputBorder(
         borderSide: BorderSide(
-          color: Colors.white,
+          color: Colors.grey,
         ),
         borderRadius: BorderRadius.all(Radius.circular(10)),
       ),
